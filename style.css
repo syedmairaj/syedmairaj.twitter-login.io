@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@100&family=Roboto:wght@300;400&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+#main_sec {
+  position: absolute;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 1000px;
+  min-height: 520px;
+  background-color: #ecf0f3;
+}
+#main_white_bk {
+  position: relative;
+  margin-left: 70px;
+  margin-top: 22px;
+  width: 1200px;
+  min-height: 600px;
+  background-color: rgb(247, 245, 245);
+  border-radius: 20px;
+}
+.main {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  background-color: #ecf0f3;
+  margin-left: 37%;
+  margin-top: 6%;
+  border-radius: 15px;
+  box-shadow: 13px 13px 20px rgb(183, 183, 183),
+    -13px -13px 20px rgb(255, 255, 255);
+}
+.logo {
+  display: inline-block;
+  position: relative;
+  width: 14%;
+  height: 14%;
+  margin-left: 133px;
+  margin-top: 27px;
+}
+.logo_circles {
+  margin-left: 125px;
+  display: inline-block;
+  z-index: -1px;
+}
+.logo_circle1 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  outline-color: black;
+  border: 1px solid rgb(213, 210, 210);
+  background-color: rgb(251, 247, 247);
+}
+.logo_circle2 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  margin-top: 20px;
+  margin-left: 4px;
+  border-radius: 50%;
+  background-color: rgb(242, 245, 242);
+  border: 1px solid rgb(131, 128, 128);
+  outline-color: black;
+}
+
+.twitter {
+  margin-left: 123px;
+  font-family: bold;
+  color: rgb(79, 75, 75);
+}
+.login_button {
+  margin-left: 45px;
+  margin-top: 40px;
+  width: 190px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #1da1f2;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 3px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.login_button:active {
+  transform: translate(1px, 1px);
+  transition: all 0.3s ease-out;
+}
+.section-2 input {
+  display: flex;
+  margin-left: 50px;
+  border: none;
+  width: 180px;
+  padding: 4px;
+  height: 25px;
+  border-radius: 20px;
+  outline-style: none;
+  background-color: #ecf0f3;
+  box-shadow: inset 6px 6px 10px 0 rgba(123, 118, 118, 0.3),
+    inset -8px -8px 10px 0 rgba(255, 255, 255, 0.4);
+}
+.login_img {
+  position: absolute;
+  display: inline-block;
+  margin-left: 210px;
+  margin-top: 8px;
+  width: 2%;
+}
+
+.pass_img {
+  position: absolute;
+  display: inline-block;
+  margin-left: 210px;
+  margin-top: 65px;
+  width: 2%;
+}
+.url {
+  font-weight: bold;
+  margin-left: 10px;
+}
