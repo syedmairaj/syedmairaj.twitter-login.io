@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  position: absolute;
+  display: inline-block;
+  margin-left: 592px;
+  margin-top: 41px;
+  color: white;
+  box-shadow: 1px 2px 8px;
+  border: none;
+  outline: none;
+}
+.main {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(4, 59, 121);
+  padding: 10px;
+}
+
+.inputbox {
+  display: inline-block;
+  position: absolute;
+  max-width: 220px;
+  min-height: 280px;
+  background-color: rgb(2, 10, 70);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.numbers input {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  vertical-align: middle;
+}
+.numbers [type="button"] {
+  margin-left: 9px;
+  border-radius: 3px;
+  outline: none;
+  border-color: transparent;
+  width: 40px;
+  /* box-shadow: 2px -1px 0.4px rgb(255, 255, 255); */
+}
+.numbers [type="button"]:active {
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  transition: all 0.2s ease-out;
+  transform: translate(-1px, 1px);
+}
+.input_data {
+  position: absolute;
+  display: inline-flex;
+  width: 218px;
+  height: 50px;
+  margin-left: 565px;
+  margin-top: 110px;
+  background-color: rgb(2, 10, 70);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.numbers .reset_btn {
+  width: 80px;
+  margin-left: 17px;
+}
+
+.numbers .equ {
+  background-color: coral;
+  margin-right: 12px;
+}
